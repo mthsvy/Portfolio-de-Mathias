@@ -1,0 +1,27 @@
+.presentation_align {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.presentation_line {
+  background: #5b5963;
+  width: 55px;
+  height: 1px;
+  margin: 30px auto;
+}
+
+.presentation_title {
+  margin-bottom: 50px;
+  font-weight: 300;
+  color: #5b5963;
+  position: relative;
+  letter-spacing: 5px;
+}
+
+.presentation_description {
+  font-size: 21px;
+  padding: 0px 200px;
+  color: #5b5963;
+}
