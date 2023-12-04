@@ -1,15 +1,13 @@
 import "./home.scss";
 import Nav from "../../components/Nav";
 import Presentation from "../../components/Presentation";
+import Projects from "../../components/Projects";
 function Home() {
   return (
     <div>
-      <nav>
-        <Nav />
-      </nav>
-      <section>
-        <Presentation />
-      </section>
+      <Nav />
+      <Presentation />
+      <Projects />
     </div>
   );
 }
