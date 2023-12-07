@@ -1,7 +1,7 @@
 import "./project.scss";
 import image from "../../assets/abajour-tahina1651286843956222.png";
-import htmlLogo from "../../assets/HTML.png";
-import cssLogo from "../../assets/CSS.png";
+import htmlLogo from "../../assets/Icon/HTML.png";
+import cssLogo from "../../assets/Icon/CSS.png";
 import Collapse from "../Collapse";
 
 function Project() {
