@@ -4,6 +4,7 @@ import Presentation from "../../container/Presentation";
 import Projects from "../../container/Projects";
 import Parcours from "../../container/Parcours";
 import Competences from "../../container/Competences";
+import Form from "../../container/Form";
 function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ function Home() {
       <Projects />
       <Parcours />
       <Competences />
+      <Form />
     </div>
   );
 }
