@@ -71,3 +71,13 @@
     }
   }
 }
+
+@media (max-width: 550px) {
+  .tooltip-container {
+    height: 15rem;
+    & > img {
+      width: 20rem;
+      height: 15rem;
+    }
+  }
+}

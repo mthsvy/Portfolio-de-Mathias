@@ -67,3 +67,9 @@
 .align {
   width: 100%;
 }
+
+@media (max-width: 550px) {
+  .article {
+    width: 20rem;
+  }
+}
