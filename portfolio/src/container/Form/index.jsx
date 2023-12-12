@@ -2,7 +2,7 @@ import Title from "../../components/Title";
 import "./form.scss";
 function Form() {
   return (
-    <div>
+    <div id="contact">
       <Title text="CONTACT" />
       <footer className="contact">
         <div className="container">

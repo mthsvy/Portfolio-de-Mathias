@@ -1,26 +1,25 @@
 import "./nav.scss";
-import { Link } from "react-router-dom";
 function Nav() {
   return (
     <header>
       <ul>
         <li>
-          <Link to="/">Accueil</Link>
+          <a href="/">Accueil</a>
         </li>
         <li>
-          <Link to="/">Présentation</Link>
+          <a href="#presentation">Présentation</a>
         </li>
         <li>
-          <Link to="/">Projets</Link>
+          <a href="#projects">Projets</a>
         </li>
         <li>
-          <Link to="/">Parcours</Link>
+          <a href="#parcours">Parcours</a>
         </li>
         <li>
-          <Link to="/">Compétences</Link>
+          <a href="#competences">Compétences</a>
         </li>
         <li>
-          <Link to="/">Contact</Link>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </header>

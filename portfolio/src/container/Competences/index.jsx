@@ -11,7 +11,7 @@ import bootstrapLogo from "../../assets/Icon/bootstrap.png";
 
 function Competences() {
   return (
-    <section>
+    <section id="competences">
       <Title text="COMPETENCES" />
       <article className="skills">
         <div>

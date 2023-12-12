@@ -2,11 +2,11 @@ import "./parcours.scss";
 import Title from "../../components/Title";
 function Parcours() {
   return (
-    <section>
+    <section id="parcours">
       <Title text="PARCOURS" />
       <div className="timeLine">
         <article>
-          <h2>Intégrateur Web</h2>
+          <h3>Intégrateur Web</h3>
           <ul>
             <li>
               <span>OpenClassRooms</span>
@@ -18,7 +18,7 @@ function Parcours() {
         </article>
 
         <article>
-          <h2>BEP Gros Oeuvre</h2>
+          <h3>BEP Gros Oeuvre</h3>
           <ul>
             <li>
               <span>Lycée Francois Mansart</span>
