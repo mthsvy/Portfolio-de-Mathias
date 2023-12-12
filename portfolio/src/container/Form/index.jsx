@@ -7,7 +7,7 @@ function Form() {
       <footer className="contact">
         <div className="container">
           <div className="form-container">
-            <form action="" method="post">
+            <form action="mailto:mthsvilly@gmail.com" method="post">
               <label htmlFor="nom">Nom</label>
               <input type="text" name="nom" id="nom" />
               <label htmlFor="email">Email</label>

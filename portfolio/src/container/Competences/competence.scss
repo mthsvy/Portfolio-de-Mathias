@@ -2,18 +2,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
 
-.skills div {
-  display: flex;
-  max-width: 25%;
-  margin: 2rem;
-  position: relative;
-  box-sizing: border-box;
-}
+  div {
+    display: flex;
+    max-width: 25%;
+    margin: 2rem;
+    position: relative;
+    box-sizing: border-box;
 
-.skills div img {
-  width: 3rem;
-  height: 100%;
-  object-fit: cover;
+    img {
+      width: 3rem;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 }

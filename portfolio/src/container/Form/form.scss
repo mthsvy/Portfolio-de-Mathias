@@ -2,30 +2,30 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0 16rem;
+  input {
+    width: 100%;
+    background-color: white;
+    border: solid 1px;
+    height: 2.5em;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100%;
+    background-color: white;
+    border: solid 1px;
+    height: 5em;
+    line-height: 2.5em;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
 }
+
 .form-container {
   flex: 2;
-}
-
-form input {
-  width: 100%;
-  background-color: white;
-  border: solid 1px;
-  height: 2.5em;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-}
-
-form textarea {
-  width: 100%;
-  background-color: white;
-  border: solid 1px;
-  height: 5em;
-  line-height: 2.5em;
-  font-size: 1.2em;
-  margin-bottom: 20px;
-  box-sizing: border-box;
+  max-width: 500px;
 }
 
 .contact {
@@ -34,13 +34,16 @@ form textarea {
   position: relative;
   padding-inline: 100px;
   padding-block: 100px;
+
   .container {
     display: flex;
     justify-content: center;
+
     input[type="submit"] {
       background-color: #150c0c26;
       padding: 0.5em 1em;
       cursor: pointer;
+
       &:hover {
         opacity: 0.8;
       }

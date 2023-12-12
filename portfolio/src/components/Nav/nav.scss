@@ -14,16 +14,19 @@ header ul {
     font-size: 11px;
     letter-spacing: 3px;
   }
+
   li {
     list-style-type: none;
     padding: 15px;
+
     &:last-child {
       position: absolute;
       right: 0;
     }
+
     &:hover {
       background-color: black;
-      transition: 1s;
+      transition: background-color 1s;
 
       a {
         color: white;

@@ -13,6 +13,7 @@ function Project({ data, tooltip }) {
           <span className="tooltip-text">
             {tooltip.map((tooltip) => (
               <img
+                key={tooltip.name}
                 src={require(`../../assets/Icon/${tooltip.logo}`)}
                 className="tooltip-img"
                 alt={tooltip.name}

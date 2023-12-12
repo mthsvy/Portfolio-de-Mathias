@@ -7,9 +7,11 @@ import Competences from "../../container/Competences";
 import Form from "../../container/Form";
 function Home() {
   return (
-    <div>
-      <Nav />
-      <Presentation />
+    <div className="home">
+      <div>
+        <Nav />
+        <Presentation />
+      </div>
       <Projects />
       <Parcours />
       <Competences />

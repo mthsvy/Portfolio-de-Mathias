@@ -5,6 +5,7 @@
   margin: 0 auto;
   padding: 40px 40px;
   box-sizing: border-box;
+
   &:after {
     content: "";
     position: absolute;
@@ -16,6 +17,7 @@
     border-radius: 3px;
     z-index: 1;
   }
+
   article {
     position: relative;
     background: #eeeeee;
@@ -23,9 +25,11 @@
     padding: 15px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 10px 0px 10px 10px;
+
     &:hover {
       box-shadow: 5px 5px 10px 0px rgba(159, 50, 50, 0.5);
     }
+
     &:before {
       content: "";
       display: block;
@@ -39,6 +43,7 @@
       border-radius: 50%;
       z-index: 2;
     }
+
     &:after {
       content: "";
       position: absolute;
@@ -50,6 +55,7 @@
       border-left: 16px solid #eeeeee;
       border-bottom: 20px solid transparent;
     }
+
     &:nth-child(even) {
       margin-left: calc(50% + 40px);
       border-radius: 0px 10px 10px 10px;
@@ -58,6 +64,7 @@
         left: auto;
         right: calc(100% + 18px);
       }
+
       &:after {
         left: auto;
         right: 100%;
@@ -66,6 +73,7 @@
       }
     }
   }
+
   article + article {
     margin-top: 20px;
   }
@@ -76,18 +84,20 @@
     &:after {
       left: calc(100% - 40px);
     }
+
     article {
       width: calc(100% - 61px);
     }
+
     article:nth-child(even) {
       margin-left: 0;
       border-radius: 10px 0px 10px 10px;
 
       &:before {
         left: calc(100% + 17px);
-
         right: auto;
       }
+
       &:after {
         left: 100%;
         right: 100%;
