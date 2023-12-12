@@ -29,6 +29,7 @@
     ]
   },
   "browserslist": {
+    "homepage": "https://mathiasvilly.site",
     "production": [
       ">0.2%",
       "not dead",
