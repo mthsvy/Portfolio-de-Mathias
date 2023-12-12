@@ -1,13 +1,12 @@
 .filters {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .filters ul {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .filters ul li {

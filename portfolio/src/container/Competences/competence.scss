@@ -5,15 +5,15 @@
 }
 
 .skills div {
-  display: flex; /* ou toute autre largeur désirée */
-  max-width: 25%; /* ou toute autre largeur désirée */
-  margin: 2rem; /* pour un espace entre les éléments */
-  position: relative; /* pour empêcher le débordement */
+  display: flex;
+  max-width: 25%;
+  margin: 2rem;
+  position: relative;
   box-sizing: border-box;
 }
 
 .skills div img {
   width: 3rem;
   height: 100%;
-  object-fit: cover; /* ou contain, selon l'effet souhaité */
+  object-fit: cover;
 }

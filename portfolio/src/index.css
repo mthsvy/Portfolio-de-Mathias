@@ -9,4 +9,8 @@ h2 {
 
 section {
   padding: 50px 50px 100px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

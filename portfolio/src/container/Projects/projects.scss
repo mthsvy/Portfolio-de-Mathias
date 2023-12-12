@@ -1,5 +1,10 @@
 .projects_gallery {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  align-items: center;
+  margin-top: 40px;
 }

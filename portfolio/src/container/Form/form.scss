@@ -47,3 +47,9 @@ form textarea {
     }
   }
 }
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  form {
+    margin: 0;
+  }
+}

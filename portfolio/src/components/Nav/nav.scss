@@ -6,6 +6,7 @@ header ul {
   margin: 0;
   padding: 0;
   cursor: pointer;
+  flex-wrap: wrap;
 
   a {
     color: black;
@@ -26,6 +27,20 @@ header ul {
 
       a {
         color: white;
+      }
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  header ul {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    li {
+      &:last-child {
+        position: relative;
       }
     }
   }
