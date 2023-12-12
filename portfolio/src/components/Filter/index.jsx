@@ -1,14 +1,17 @@
 import "./filter.scss";
 
-function Filter({ text }) {
+function Filter({ select, onChange }) {
   return (
     <div id="" className="filters">
       <ul>
-        <li>Tous</li>
-        <li>Html</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li onClick={() => onChange(null)} key="Tous">
+          Tous
+        </li>
+        {select.map((outil) => (
+          <li onClick={() => onChange(outil)} key={outil}>
+            {outil.toUpperCase()}
+          </li>
+        ))}
       </ul>
     </div>
   );

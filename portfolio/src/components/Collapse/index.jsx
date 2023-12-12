@@ -14,8 +14,10 @@ function Collapse({ label, description }) {
           expand_less
         </span>
       </span>
-      <div className="description">
-        <span>{description}</span>
+      <div className="align">
+        <div className="description">
+          <span>{description}</span>
+        </div>
       </div>
     </article>
   );

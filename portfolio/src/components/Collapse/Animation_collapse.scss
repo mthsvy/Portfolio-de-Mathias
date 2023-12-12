@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 .article {
-  width: 100%;
+  width: 30rem;
   border-radius: 5px;
 
   .arrow {
@@ -41,11 +41,14 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 800ms ease-in-out;
+
     span {
       color: #5b5963;
       font-size: 19px;
       padding: 1em;
-      display: inline-block;
+      display: block;
+      max-width: 100%;
+      width: 100%;
     }
   }
 
@@ -59,4 +62,8 @@
 
 .material-symbols-outlined {
   font-size: 20px;
+}
+
+.align {
+  width: 100%;
 }

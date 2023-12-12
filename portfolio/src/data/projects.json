@@ -1,0 +1,105 @@
+{
+  "projects": [
+    {
+      "name": "Booki",
+      "description": "Un site web de réservation d'une agence de voyage.",
+      "github": "https://github.com/mthsvy/Projet-3.git",
+      "site_web": "",
+      "image": "booki.webp",
+      "outils": ["html", "css"]
+    },
+    {
+      "name": "Ohmyfood",
+      "description": "Un site web mobile first qui repertorie les menus de restaurants gastronomiques.",
+      "github": "https://github.com/mthsvy/Projet-4.git",
+      "site_web": "",
+      "image": "ohmyfood.webp",
+      "outils": ["html", "scss"]
+    },
+    {
+      "name": "Print it",
+      "description": "Un site web pour une entreprise d'impression.",
+      "github": "https://github.com/mthsvy/Premier_pas_Javascript.git",
+      "site_web": "",
+      "image": "print-it.webp",
+      "outils": ["html", "css", "javascript"]
+    },
+    {
+      "name": "ArchiWebos",
+      "description": "Portfolio d'une architecte d'intérieur",
+      "github": "https://github.com/mthsvy/Projet_Java_script_ArchiWebos.git",
+      "site_web": "",
+      "image": "archiwebos.webp",
+      "outils": ["html", "css", "javascript"]
+    },
+    {
+      "name": "Kasa",
+      "description": "Une application web de location immobiliière",
+      "github": "https://github.com/mthsvy/Cr-ez-une-application-web-de-location-immobili-re-avec-React.git",
+      "site_web": "",
+      "image": "kasa.webp",
+      "outils": ["html", "scss", "javascript", "react"]
+    },
+
+    {
+      "name": "Nina Carducci",
+      "description": "Optimisation de la visibilité d'un site web",
+      "github": "https://github.com/mthsvy/Optimisez-le-r-f-rencement-d-un-site-de-photographe.git",
+      "site_web": "",
+      "image": "ninacarducci.webp",
+      "outils": ["html", "css", "javascript", "bootstrap"]
+    },
+
+    {
+      "name": "77 Events",
+      "description": "Un site d'une agence événementielle",
+      "github": "https://github.com/mthsvy/Debuggez-le-site-d_une-agence-d_evenementiel.git",
+      "site_web": "",
+      "image": "77-event.webp",
+      "outils": ["html", "scss", "javascript", "react", "jest"]
+    },
+
+    {
+      "name": "ArgentBank",
+      "description": "Une application bancaire",
+      "github": "https://github.com/mthsvy/Implementez_le_front-end_d_une_application_bancaire_avec_React.git",
+      "site_web": "",
+      "image": "argentbank.webp",
+      "outils": ["html", "scss", "javascript", "react", "redux"]
+    }
+  ],
+  "outils": [
+    {
+      "name": "html",
+      "logo": "HTML.png"
+    },
+    {
+      "name": "css",
+      "logo": "CSS.png"
+    },
+    {
+      "name": "bootstrap",
+      "logo": "bootstrap.png"
+    },
+    {
+      "name": "jest",
+      "logo": "jest.png"
+    },
+    {
+      "name": "javascript",
+      "logo": "Js.png"
+    },
+    {
+      "name": "react",
+      "logo": "react.png"
+    },
+    {
+      "name": "redux",
+      "logo": "redux.png"
+    },
+    {
+      "name": "scss",
+      "logo": "sass.png"
+    }
+  ]
+}

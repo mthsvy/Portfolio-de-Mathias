@@ -1,38 +1,41 @@
 import "./project.scss";
-import image from "../../assets/abajour-tahina1651286843956222.png";
-import htmlLogo from "../../assets/Icon/HTML.png";
-import cssLogo from "../../assets/Icon/CSS.png";
 import Collapse from "../Collapse";
 
-function Project() {
+function Project({ data, tooltip }) {
   return (
-    <div>
+    <div className="project">
       <article className="picture_project">
         <div className="tooltip-container">
-          <img src={image} alt="" />
+          <img
+            src={require(`../../assets/Projects_pictures/${data.image}`)}
+            alt={data.name}
+          />
           <span className="tooltip-text">
-            <img src={htmlLogo} className="tooltip-img" alt="" />
-            <img src={cssLogo} className="tooltip-img" alt="" />
+            {tooltip.map((tooltip) => (
+              <img
+                src={require(`../../assets/Icon/${tooltip.logo}`)}
+                className="tooltip-img"
+                alt={tooltip.name}
+              />
+            ))}
           </span>
 
           <div className="icon_project">
             <span className="giticon_project">
-              <a href="https://github.com/mthsvy/Projet_Java_script_ArchiWebos.git">
+              <a href={data.github} target="blank">
                 <i className="fab fa-github"></i>
               </a>
             </span>
 
             <span className="giticon_project">
-              <a href=".">
+              <a href={data.site_web} target="blank">
                 <i className="fas fa-globe"></i>
               </a>
             </span>
           </div>
         </div>
       </article>
-      <div className="description_project">
-        <Collapse label="Titre du projet" description="description du projet" />
-      </div>
+      <Collapse label={data.name} description={data.description} />
     </div>
   );
 }
