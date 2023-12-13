@@ -16,6 +16,7 @@
       "image": "ohmyfood.webp",
       "outils": ["html", "scss"]
     },
+
     {
       "name": "Print it",
       "description": "Un site web pour une entreprise d'impression.",
@@ -71,35 +72,35 @@
   "outils": [
     {
       "name": "html",
-      "logo": "HTML.png"
+      "logo": "HTML.svg"
     },
     {
       "name": "css",
-      "logo": "CSS.png"
+      "logo": "css.svg"
     },
     {
       "name": "bootstrap",
-      "logo": "bootstrap.png"
+      "logo": "bootstrap.svg"
     },
     {
       "name": "jest",
-      "logo": "jest.png"
+      "logo": "jest.svg"
     },
     {
       "name": "javascript",
-      "logo": "Js.png"
+      "logo": ".svg"
     },
     {
       "name": "react",
-      "logo": "react.png"
+      "logo": "react.svg"
     },
     {
       "name": "redux",
-      "logo": "redux.png"
+      "logo": "redux.svg"
     },
     {
       "name": "scss",
-      "logo": "sass.png"
+      "logo": "sass.svg"
     }
   ]
 }
