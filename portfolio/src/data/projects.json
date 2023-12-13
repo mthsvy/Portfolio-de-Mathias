@@ -5,7 +5,7 @@
       "description": "Un site web de réservation d'une agence de voyage.",
       "github": "https://github.com/mthsvy/Projet-3.git",
       "site_web": "https://mthsvy.github.io/Projet-3/booki-starter-code-master/index.html",
-      "image": "booki.webp",
+      "image": "booki.avif",
       "outils": ["html", "css"]
     },
     {
@@ -13,7 +13,7 @@
       "description": "Un site web mobile first qui répertorie les menus de restaurants gastronomiques.",
       "github": "https://github.com/mthsvy/Projet-4.git",
       "site_web": "https://mthsvy.github.io/Projet-4/html/index.html",
-      "image": "ohmyfood.webp",
+      "image": "ohmyfood.avif",
       "outils": ["html", "scss"]
     },
 
@@ -22,7 +22,7 @@
       "description": "Un site web pour une entreprise d'impression.",
       "github": "https://github.com/mthsvy/Premier_pas_Javascript.git",
       "site_web": "https://mthsvy.github.io/Premier_pas_Javascript/index.html",
-      "image": "print-it.webp",
+      "image": "print-it.avif",
       "outils": ["html", "css", "javascript"]
     },
     {
@@ -30,7 +30,7 @@
       "description": "Portfolio d'une architecte d'intérieur",
       "github": "https://github.com/mthsvy/Projet_Java_script_ArchiWebos.git",
       "site_web": "https://mthsvy.github.io/Projet_Java_script_ArchiWebos/Portfolio-architecte-sophie-bluel-master/FrontEnd/",
-      "image": "archiwebos.webp",
+      "image": "archiwebos.avif",
       "outils": ["html", "css", "javascript"]
     },
     {
@@ -38,7 +38,7 @@
       "description": "Une application web de location immobiliière",
       "github": "https://github.com/mthsvy/Cr-ez-une-application-web-de-location-immobili-re-avec-React.git",
       "site_web": "",
-      "image": "kasa.webp",
+      "image": "kasa.avif",
       "outils": ["html", "scss", "javascript", "react"]
     },
 
@@ -47,7 +47,7 @@
       "description": "Optimisation de la visibilité d'un site web",
       "github": "https://github.com/mthsvy/Optimisez-le-r-f-rencement-d-un-site-de-photographe.git",
       "site_web": "",
-      "image": "ninacarducci.webp",
+      "image": "ninacarducci.avif",
       "outils": ["html", "css", "javascript", "bootstrap"]
     },
 
@@ -56,7 +56,7 @@
       "description": "Un site d'une agence événementielle",
       "github": "https://github.com/mthsvy/Debuggez-le-site-d_une-agence-d_evenementiel.git",
       "site_web": "",
-      "image": "77-event.webp",
+      "image": "77-event.avif",
       "outils": ["html", "scss", "javascript", "react", "jest"]
     },
 
@@ -65,7 +65,7 @@
       "description": "Une application bancaire",
       "github": "https://github.com/mthsvy/Implementez_le_front-end_d_une_application_bancaire_avec_React.git",
       "site_web": "",
-      "image": "argentbank.webp",
+      "image": "argentbank.avif",
       "outils": ["html", "scss", "javascript", "react", "redux"]
     }
   ],
