@@ -61,7 +61,7 @@
     bottom: 2%;
     margin-left: -60px;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s, bottom 0.3s;
 
     .tooltip-img {
       width: 40px;
@@ -73,6 +73,7 @@
     .tooltip-text {
       visibility: visible;
       opacity: 1;
+      bottom: 10%;
     }
   }
 }

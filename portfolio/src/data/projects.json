@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Booki",
-      "description": "Un site web de réservation d'une agence de voyage.",
+      "description": "Un site web de réservation d'une agence de voyage",
       "github": "https://github.com/mthsvy/Projet-3.git",
       "site_web": "https://mthsvy.github.io/Projet-3/booki-starter-code-master/index.html",
       "image": "booki.avif",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Ohmyfood",
-      "description": "Un site web mobile first qui répertorie les menus de restaurants gastronomiques.",
+      "description": "Un site web mobile first qui répertorie les menus de restaurants gastronomiques",
       "github": "https://github.com/mthsvy/Projet-4.git",
       "site_web": "https://mthsvy.github.io/Projet-4/html/index.html",
       "image": "ohmyfood.avif",
@@ -19,7 +19,7 @@
 
     {
       "name": "Print it",
-      "description": "Un site web pour une entreprise d'impression.",
+      "description": "Un site web pour une entreprise d'impression",
       "github": "https://github.com/mthsvy/Premier_pas_Javascript.git",
       "site_web": "https://mthsvy.github.io/Premier_pas_Javascript/index.html",
       "image": "print-it.avif",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Kasa",
-      "description": "Une application web de location immobiliière",
+      "description": "Une application web de location immobilière",
       "github": "https://github.com/mthsvy/Cr-ez-une-application-web-de-location-immobili-re-avec-React.git",
       "site_web": "",
       "image": "kasa.avif",
