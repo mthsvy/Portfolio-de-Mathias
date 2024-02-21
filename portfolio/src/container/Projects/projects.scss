@@ -8,3 +8,9 @@
   align-items: center;
   margin-top: 40px;
 }
+
+@media (max-width: 480px) {
+  .projects_gallery {
+    gap: 40px;
+  }
+}
