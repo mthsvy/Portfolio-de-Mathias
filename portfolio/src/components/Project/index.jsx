@@ -8,6 +8,19 @@ function Project({ data, tooltip }) {
     setIsFlipped(!isFlipped);
   };
 
+  const handleOutsideClick = (event) => {
+    if (!event.target.closest(".project")) {
+      setIsFlipped(false);
+    }
+  };
+
+  React.useEffect(() => {
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, []);
+
   return (
     <div
       className={`project ${isFlipped ? "flipped" : ""}`}
@@ -23,7 +36,7 @@ function Project({ data, tooltip }) {
         <div className="container card_back">
           <h1>{data.name}</h1>
           <p>{data.description}</p>
-          <span className="tooltip">
+          <div className="tooltip">
             {tooltip.map((tooltip) => (
               <img
                 key={tooltip.name}
@@ -32,7 +45,7 @@ function Project({ data, tooltip }) {
                 alt={tooltip.name}
               />
             ))}
-          </span>
+          </div>
           <div className="icon_project">
             <span className="giticon_project">
               <a href={data.github} target="_blank" rel="noopener noreferrer">
