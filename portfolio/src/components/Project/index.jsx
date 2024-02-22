@@ -1,9 +1,19 @@
+import React, { useState } from "react";
 import "./project.scss";
 
 function Project({ data, tooltip }) {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
-    <div className="project">
-      <article className="card">
+    <div
+      className={`project ${isFlipped ? "flipped" : ""}`}
+      onClick={handleFlip}
+    >
+      <div className="card">
         <div className="container card_front">
           <img
             src={require(`../../assets/Projects_pictures/${data.image}`)}
@@ -25,19 +35,19 @@ function Project({ data, tooltip }) {
           </span>
           <div className="icon_project">
             <span className="giticon_project">
-              <a href={data.github} target="blank">
+              <a href={data.github} target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
             </span>
 
             <span className="giticon_project">
-              <a href={data.site_web} target="blank">
+              <a href={data.site_web} target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-globe"></i>
               </a>
             </span>
           </div>
         </div>
-      </article>
+      </div>
     </div>
   );
 }
