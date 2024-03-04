@@ -4,13 +4,7 @@
   flex-wrap: nowrap;
   min-height: 100vh;
   justify-content: space-between;
-  background-image: url("../../assets/Projects_pictures/texture_bois_fond.jpg");
+  background-image: url("../../assets/Projects_pictures/fond_gris_a.jpeg");
   background-attachment: fixed;
   background-size: cover;
-}
-
-@media (max-width: 425px) {
-  .home {
-    background-image: none;
-  }
 }
