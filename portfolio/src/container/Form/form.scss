@@ -18,14 +18,22 @@ form {
     height: 5em;
     line-height: 2.5em;
     font-size: 1.2em;
-    margin-bottom: 20px;
     box-sizing: border-box;
+    margin-bottom: 20px;
   }
 }
 
 .form-container {
   flex: 2;
   max-width: 500px;
+  .erreurFormulaire,
+  .erreurEnvoiFormulaire {
+    display: none;
+    text-align: center;
+    color: red;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 .contact {
@@ -52,6 +60,47 @@ form {
   }
 }
 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.textAlign {
+  background: gray;
+  border: solid black 1px;
+  border-radius: 15px;
+  color: white;
+  padding: 1rem;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+.animation {
+  opacity: 0;
+  animation: disparaitre 3s forwards;
+}
+
+@keyframes disparaitre {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 @media (min-width: 320px) and (max-width: 1200px) {
   form {
     margin: 0;
