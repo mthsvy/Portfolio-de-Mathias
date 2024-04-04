@@ -1,12 +1,20 @@
 import Title from "../../components/Title";
 import "./presentation.scss";
-import portraitPresentation from "../../assets/Projects_pictures/portrait.jpg";
+import portraitPresentationLarge from "../../assets/Projects_pictures/portraitLarge.jpg";
+import portraitPresentationSmall from "../../assets/Projects_pictures/portraitSmall.avif";
+
 function Presentation() {
   return (
     <section className="presentation_font" id="presentation">
       <Title text="PRESENTATION" />
       <div className="portrait_description">
-        <img src={portraitPresentation} alt="Portrait" />
+        <img
+          src={portraitPresentationLarge}
+          srcSet={`${portraitPresentationSmall} 200w, ${portraitPresentationLarge} 400w`}
+          sizes="(min-width: 840px) 400px, 48.08vw"
+          alt="Portrait"
+          loading="eager"
+        />
         <section className="presentation_description">
           <p>
             Bonjour,

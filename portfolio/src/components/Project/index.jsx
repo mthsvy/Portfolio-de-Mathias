@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./project.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Project({ data, tooltip }) {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -30,6 +33,7 @@ function Project({ data, tooltip }) {
         <div className="container card_front">
           <img
             src={require(`../../assets/Projects_pictures/${data.image}`)}
+            sizes="480px"
             alt={data.name}
           />
         </div>
@@ -48,14 +52,24 @@ function Project({ data, tooltip }) {
           </div>
           <div className="icon_project">
             <span className="giticon_project">
-              <a href={data.github} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-github"></i>
+              <a
+                href={data.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <FontAwesomeIcon icon={faGithub} />
               </a>
             </span>
 
             <span className="giticon_project">
-              <a href={data.site_web} target="_blank" rel="noopener noreferrer">
-                <i className="fas fa-globe"></i>
+              <a
+                href={data.site_web}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Site Webs"
+              >
+                <FontAwesomeIcon icon={faGlobe} />
               </a>
             </span>
           </div>
