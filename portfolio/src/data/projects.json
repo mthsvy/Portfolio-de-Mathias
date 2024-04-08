@@ -37,7 +37,7 @@
       "name": "Kasa",
       "description": "Une application web de location immobilière",
       "github": "https://github.com/mthsvy/Cr-ez-une-application-web-de-location-immobili-re-avec-React.git",
-      "site_web": "",
+      "site_web": "http://localhost:3000/cs",
       "image": "kasa.avif",
       "outils": ["html", "scss", "javascript", "react"]
     },
@@ -46,7 +46,7 @@
       "name": "Nina Carducci",
       "description": "Optimisation de la visibilité d'un site web",
       "github": "https://github.com/mthsvy/Optimisez-le-r-f-rencement-d-un-site-de-photographe.git",
-      "site_web": "",
+      "site_web": "http://localhost:3000/cs",
       "image": "ninacarducci.avif",
       "outils": ["html", "css", "javascript", "bootstrap"]
     },
@@ -55,7 +55,7 @@
       "name": "77 Events",
       "description": "Un site d'une agence événementielle",
       "github": "https://github.com/mthsvy/Debuggez-le-site-d_une-agence-d_evenementiel.git",
-      "site_web": "",
+      "site_web": "https://mathiasvilly.alwaysdata.net/",
       "image": "77-event.avif",
       "outils": ["html", "scss", "javascript", "react", "jest"]
     },
@@ -64,7 +64,7 @@
       "name": "ArgentBank",
       "description": "Une application bancaire",
       "github": "https://github.com/mthsvy/Implementez_le_front-end_d_une_application_bancaire_avec_React.git",
-      "site_web": "",
+      "site_web": "http://localhost:3000/cs",
       "image": "argentbank.avif",
       "outils": ["html", "scss", "javascript", "react", "redux"]
     }

@@ -7,7 +7,7 @@ import Competences from "../../container/Competences";
 import Form from "../../container/Form";
 function Home() {
   return (
-    <div className="home">
+    <div className="home background">
       <div>
         <Nav />
         <Presentation />

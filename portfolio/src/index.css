@@ -6,3 +6,9 @@ body {
 h2 {
   font-size: 30px;
 }
+
+.background {
+  background-image: url("./assets/Projects_pictures/fond_gris_a.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
