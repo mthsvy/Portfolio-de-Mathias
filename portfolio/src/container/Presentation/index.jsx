@@ -1,7 +1,6 @@
 import Title from "../../components/Title";
 import "./presentation.scss";
-import portraitPresentationLarge from "../../assets/Projects_pictures/portraitLarge.jpg";
-import portraitPresentationSmall from "../../assets/Projects_pictures/portraitSmall.avif";
+import portraitPresentationLarge from "../../assets/Projects_pictures/Photos_de_moi.jpg";
 
 function Presentation() {
   return (
@@ -10,18 +9,19 @@ function Presentation() {
       <div className="portrait_description">
         <img
           src={portraitPresentationLarge}
-          srcSet={`${portraitPresentationSmall} 200w, ${portraitPresentationLarge} 400w`}
           sizes="(min-width: 840px) 400px, 48.08vw"
           alt="Portrait"
           loading="eager"
         />
         <section className="presentation_description">
           <p>
-            Bonjour,
-            <br /> Je suis un passionné d'informatique et je me suis lancé dans
-            une formation d'intégrateur web il y a neuf mois.
-            <br /> Mon parcours est axé sur l'apprentissage des compétences
-            nécessaires pour devenir un intégrateur web compétent et polyvalent.
+            Bonjour, <br />
+            Je vous invite à découvrir mon portfolio, issu de neuf mois
+            d'apprentissage dédiés à l'intégration web. <br /> Vous y trouverez
+            mes réalisations, témoignant de mon évolution et de mon savoir-faire
+            dans ce domaine. <br /> Je suis convaincu que mon portfolio saura
+            illustrer de manière simple et efficace mes compétences en
+            intégration web. <br /> <br /> Mathias Villy
           </p>
         </section>
       </div>
